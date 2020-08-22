@@ -219,3 +219,67 @@ section {
         transform: rotate(0deg);
     }
 }
+
+@media screen and (max-width:768px) {
+    header {
+        margin: 20px;
+    }
+    section {
+        width: 90%;
+        margin-top: 50px;
+    }
+    .buttons {
+        width: 90%;
+    }
+    .submitDiv {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    header {
+        margin: 20px;
+        font-size: 20px;
+    }
+    header p {
+        font-size: 16px;
+    }
+    .preload {
+        margin-top: 20px;
+    }
+    .preload div {
+        height: 10px;
+        width: 10px;
+        margin: 2.5px;
+    }
+    .main-preload h2 {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .main {
+        margin: 13px;
+    }
+    .main .question {
+        font-size: 14px;
+        margin: 7px 0;
+    }
+    .main .options {
+        font-size: 14px;
+    }
+    .main .options label {
+        margin-top: 7px;
+    }
+    section {
+        width: 90%;
+        margin-top: 10px;
+    }
+    .buttons {
+        width: 90%;
+    }
+    .error-text h5 {
+        font-size: 14px;
+    }
+    .submitDiv {
+        width: 90%;
+    }
+}

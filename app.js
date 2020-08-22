@@ -44,7 +44,7 @@ window.addEventListener('load', () => {
         console.log('fetched');
 
         // Show the section --  Preload Finished
-        preload.classList.add('hidden');
+        // preload.classList.add('hidden');
         testDiv.classList.remove('hidden');
 
         // Set Title
