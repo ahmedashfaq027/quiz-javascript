@@ -1,0 +1,44 @@
+{
+    "questions": [
+        {
+            "description": "Which of these class is superclass of String and StringBuffer class?",
+            "options": [
+                "java.util",
+                "java.lang",
+                "ArrayList",
+                "None of the above"
+            ],
+            "answer": "B"
+        },
+        {
+            "description": "Which of these operators can be used to concatenate two or more String objects?",
+            "options": [
+                "+",
+                "+=",
+                "&",
+                "||"
+            ],
+            "answer": "A"
+        },
+        {
+            "description": "Which of this method of class String is used to obtain a length of String object?",
+            "options": [
+                "get()",
+                "sizeof()",
+                "lengthof()",
+                "length()"
+            ],
+            "answer": "D"
+        },
+        {
+            "description": "Which of these methods is an alternative to getChars() that stores the characters in an array of bytes?",
+            "options": [
+                "getBytes()",
+                "GetByte()",
+                "giveByte()",
+                "Give Bytes()"
+            ],
+            "answer": "A"
+        }
+    ]
+}
