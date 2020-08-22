@@ -1,4 +1,4 @@
-const jsonData = './sample.json';
+const jsonData = 'https://raw.githubusercontent.com/ahmedashfaq027/quiz-javascript/master/sample.json';
 const proxy = 'https://cors-anywhere.herokuapp.com/';
 
 window.addEventListener('load', () => {
