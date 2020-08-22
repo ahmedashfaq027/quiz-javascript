@@ -1,4 +1,4 @@
-const jsonData = 'https://raw.githubusercontent.com/ahmedashfaq027/java-quiz/master/sample.json?token=ANROG3NL27L7V7X6GWFBRMC7JKEBQ';
+const jsonData = './sample.json';
 const proxy = 'https://cors-anywhere.herokuapp.com/';
 
 window.addEventListener('load', () => {
@@ -29,7 +29,7 @@ window.addEventListener('load', () => {
 
     // Make Request
     const xmlHttp = new XMLHttpRequest();
-    xmlHttp.open('GET', proxy + jsonData);
+    xmlHttp.open('GET', jsonData);
     xmlHttp.responseType = 'json';
     xmlHttp.send();
 
