@@ -1,4 +1,6 @@
 {
+    "title": "Java Quiz",
+    "description": "Take this quiz for getting strong with java",
     "questions": [
         {
             "description": "Which of these class is superclass of String and StringBuffer class?",
@@ -8,7 +10,7 @@
                 "ArrayList",
                 "None of the above"
             ],
-            "answer": "B"
+            "answer": "2"
         },
         {
             "description": "Which of these operators can be used to concatenate two or more String objects?",
@@ -18,7 +20,7 @@
                 "&",
                 "||"
             ],
-            "answer": "A"
+            "answer": "1"
         },
         {
             "description": "Which of this method of class String is used to obtain a length of String object?",
@@ -28,7 +30,7 @@
                 "lengthof()",
                 "length()"
             ],
-            "answer": "D"
+            "answer": "4"
         },
         {
             "description": "Which of these methods is an alternative to getChars() that stores the characters in an array of bytes?",
@@ -38,7 +40,7 @@
                 "giveByte()",
                 "Give Bytes()"
             ],
-            "answer": "A"
+            "answer": "1"
         }
     ]
 }

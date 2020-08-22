@@ -1,0 +1,206 @@
+{
+    "questions": [
+        {
+            "description": "Which of these class is superclass of String and StringBuffer class?",
+            "options": [
+                "java.util",
+                "java.lang",
+                "ArrayList",
+                "None of the above"
+            ],
+            "answer": "B"
+        },
+        {
+            "description": "Which of these operators can be used to concatenate two or more String objects?",
+            "op1": "+",
+            "op2": "+=",
+            "op3": "&",
+            "op4": "||",
+            "answer": "A"
+        },
+        {
+            "description": "Which of this method of class String is used to obtain a length of String object?",
+            "op1": "get()",
+            "op2": "sizeof()",
+            "op3": "lengthof()",
+            "op4": "length()",
+            "answer": "D"
+        },
+        {
+            "description": "Which of these methods is an alternative to getChars() that stores the characters in an array of bytes?",
+            "op1": "getBytes()",
+            "op2": "GetByte()",
+            "op3": "giveByte()",
+            "op4": "Give Bytes()",
+            "answer": "A"
+        },
+        {
+            "description": "Which of these constructors is used to create an empty String object?",
+            "op1": "String()",
+            "op2": "String(void)",
+            "op3": "String(0)",
+            "op4": "None of the above",
+            "answer": "A"
+        },
+        {
+            "description": "Which of these methods is used to compare a specific region inside a string with another specific region in another string?",
+            "op1": "regionMatch()",
+            "op2": "match()",
+            "op3": "RegionMatches()",
+            "op4": "regionMatches()",
+            "answer": "D"
+        },
+        {
+            "description": "Which of these methods of class String is used to check whether a given object starts with a particular string literal?",
+            "op1": "startsWith()",
+            "op2": "endsWith()",
+            "op3": "Starts()",
+            "op4": "ends()",
+            "answer": "A"
+        },
+        {
+            "description": "Which of these data type value is returned by equals() method of String class?",
+            "op1": "char",
+            "op2": "int",
+            "op3": "boolean",
+            "op4": "All of the above",
+            "answer": "C"
+        },
+        {
+            "description": "Which of these method of class String is used to remove leading and trailing whitespaces?",
+            "op1": "startsWith()",
+            "op2": "doTrim()",
+            "op3": "Trim()",
+            "op4": "trim()",
+            "answer": "D"
+        },
+        {
+            "description": "What is the value returned by function compareTo() if the invoking string is greater than the string compared?",
+            "op1": "zero",
+            "op2": "value less than zero",
+            "op3": "value greater than zero",
+            "op4": "none of the mentioned",
+            "answer": "C"
+        },
+        {
+            "description": "Which of these class is used to create an object whose character sequence is mutable?",
+            "op1": "String()",
+            "op2": "StringBuffer()",
+            "op3": "String() & StringBuffer()",
+            "op4": "None of the mentioned",
+            "answer": "B"
+        },
+        {
+            "description": "Which of this method of class StringBuffer is used to concatenate the string representation to the end of invoking string?",
+            "op1": "concat()",
+            "op2": "append()",
+            "op3": "join()",
+            "op4": "concatenate()",
+            "answer": "B"
+        },
+        {
+            "description": "Which of these is a super class of wrappers Double & Integer?",
+            "op1": "Long",
+            "op2": "Digits",
+            "op3": "Float",
+            "op4": "Number",
+            "answer": "D"
+        },
+        {
+            "description": "Which of the following is a method of wrapper Float for converting the value of an object into byte?",
+            "op1": "bytevalue()",
+            "op2": "byte byteValue()",
+            "op3": "Bytevalue()",
+            "op4": "Byte Bytevalue()",
+            "answer": "B"
+        },
+        {
+            "description": "Which of the following package stores all the simple data types in java?",
+            "op1": "lang",
+            "op2": "java",
+            "op3": "util",
+            "op4": "java.packages",
+            "answer": "A"
+        },
+        {
+            "description": "Which of the following is method of System class is used to find how long a program takes to execute?",
+            "op1": "currenttime()",
+            "op2": "currentTime()",
+            "op3": "currentTimeMillis()",
+            "op4": "currenttimeMillis()",
+            "answer": "C"
+        },
+        {
+            "description": "Which of these method of Object class can generate duplicate copy of the object on which it is called?",
+            "op1": "clone()",
+            "op2": "copy()",
+            "op3": "duplicate()",
+            "op4": "dito()",
+            "answer": "A"
+        },
+        {
+            "description": "Which of these class encapsulate the runtime state of an object or an interface?",
+            "op1": "Class",
+            "op2": "Object",
+            "op3": "Runtime",
+            "op4": "System",
+            "answer": "A"
+        },
+        {
+            "description": "Which of these methods initiates garbage collection?",
+            "op1": "gc()",
+            "op2": "garbage()",
+            "op3": "garbagecollection()",
+            "op4": "Systemgarbagecollection()",
+            "answer": "A"
+        },
+        {
+            "description": "Which of these exceptions is thrown by methods of System class?",
+            "op1": "IOException",
+            "op2": "SystemException",
+            "op3": "SecurityException",
+            "op4": "InputOutputException",
+            "answer": "C"
+        },
+        {
+            "description": "Which of these methods can be used to check whether the given value is a number or not?",
+            "op1": "isNaN()",
+            "op2": "isNumber()",
+            "op3": "checkNaN()",
+            "op4": "checkNumber()",
+            "answer": "A"
+        },
+        {
+            "description": "Which of these exceptions is thrown by compareTo() method defined in a double wrapper?",
+            "op1": "IOException",
+            "op2": "SystemException",
+            "op3": "CastException",
+            "op4": "ClassCastException",
+            "answer": "D"
+        },
+        {
+            "description": "Which of these interface is not a member of java.io package?",
+            "op1": "DataInput",
+            "op2": "ObjectInput",
+            "op3": "ObjectFilter",
+            "op4": "FileFilter",
+            "answer": "C"
+        },
+        {
+            "description": "Which of these data type is returned by every method of OutputStream?",
+            "op1": "int",
+            "op2": "float",
+            "op3": "byte",
+            "op4": "None of the mentioned",
+            "answer": "D"
+        },
+        {
+            "description": "Which of these is a method to clear all the data present in output buffers?",
+            "op1": "clear()",
+            "op2": "flush()",
+            "op3": "fflush()",
+            "op4": "close()",
+            "answer": "B"
+        }
+    ]
+}

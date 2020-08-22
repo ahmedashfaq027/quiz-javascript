@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <header>
+        <h1></h1>
+        <p></p>
+    </header>
+
+    <div class="main-preload">
+        <div class="preload">
+            <div class="bubble1"></div>
+            <div class="bubble2"></div>
+            <div class="bubble3"></div>
+
+        </div>
+        <div>
+            <h2>Please wait while we load the test for you...</h2>
+        </div>
+    </div>
+
+    <div class="exam">
+        <section>
+            <form class="main">
+                <div class="question">
+                    <h3></h3>
+                </div>
+                <div class="options">
+                    <label>
+                        <input type="radio" name="option" id="opt1" value="1">
+                        <span></span>
+                    </label>
+                    <label>
+                        <input type="radio" name="option" id="opt2" value="2"> <span></span>
+                    </label>
+                    <label>
+                        <input type="radio" name="option" id="opt3" value="3"> <span></span>
+                    </label>
+                    <label>
+                        <input type="radio" name="option" id="opt4" value="4"> <span></span>
+                    </label>
+                </div>
+            </form>
+
+        </section>
+
+        <div class="buttons">
+            <input type="button" value="Prev" class="prev-btn">
+            <input type="button" value="Next" class="next-btn">
+        </div>
+
+        <div class="error-text">
+            <h5>some</h5>
+        </div>
+
+        <div class="submitDiv">
+            <input type="button" value="Submit" class="submit-btn">
+        </div>
+    </div>
+
+    <div class="thankyou hidden">
+        <h1>Thank you for taking the test</h1>
+        <div class="desc">
+            <h3 id="answered">Questions answered: </h3>
+            <h3 id="score">Your score is: </h3>
+        </div>
+    </div>
+
+    <script src="./questions.json"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
