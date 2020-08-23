@@ -12,6 +12,8 @@ body {
     font-family: 'Alata', sans-serif;
 }
 
+/* Header */
+
 header {
     font-family: sans-serif;
     color: white;
@@ -19,6 +21,7 @@ header {
     margin: 70px;
     font-size: 26px;
     align-items: center;
+    position: relative;
 }
 
 header h1 {
@@ -31,6 +34,18 @@ header p {
     font-size: 18px;
     color: black;
 }
+
+header h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    color: black;
+}
+
+/* Header */
 
 /* loading */
 
@@ -286,6 +301,6 @@ section {
         margin-top: 1.3rem;
     }
     .thankyou h1 {
-        font-size: 20px;
+        font-size: 22px;
     }
 }

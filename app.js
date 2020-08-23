@@ -1,5 +1,6 @@
 const jsonData = 'https://raw.githubusercontent.com/ahmedashfaq027/quiz-javascript/master/sample.json';
 const proxy = 'https://cors-anywhere.herokuapp.com/';
+const timerEle = document.querySelector('.timer');
 
 window.addEventListener('load', () => {
     // Define elements
@@ -56,6 +57,7 @@ window.addEventListener('load', () => {
         setQuestion(questions[counter]);
         onCounterUpdate();
         clearRadioInput();
+        startTimer(600);
     }
 
     function setQuestion(question) {
@@ -137,14 +139,34 @@ window.addEventListener('load', () => {
     });
 
     submitBtn.addEventListener('click', () => {
+        endTest();
+    });
+
+    function endTest() {
         let result = getResult(userAnswers, answers);
-        thankyouDiv.querySelector('div h3#answered').textContent += userAnswers.length;
+        thankyouDiv.querySelector('div h3#answered').textContent += userAnswers.filter(Boolean).length + " out of " + answers.length;
         thankyouDiv.querySelector('div h3#score').textContent += result;
         titleEle.querySelector('p').classList.add('hidden');
 
         testDiv.classList.add('hidden');
         thankyouDiv.classList.remove('hidden');
-    });
+    }
+
+    function startTimer(seconds) {
+        timer = setInterval(function () {
+            console.log(seconds);
+            timerEle.innerHTML = `${Math.floor(seconds / 60)}:${seconds % 60}`;
+            if (seconds == 0) {
+                stopTimer();
+                endTest();
+            }
+            seconds--;
+        }, 1000);
+    }
+
+    function stopTimer() {
+        clearInterval(timer);
+    }
 });
 
 function getResult(userAnswers, answers) {
@@ -154,3 +176,4 @@ function getResult(userAnswers, answers) {
             count++;
     return count;
 }
+
