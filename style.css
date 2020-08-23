@@ -35,22 +35,35 @@ header .description {
     color: black;
 }
 
-header h2 {
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 600;
-    font-size: 36px;
+.timer-div {
     position: absolute;
+    align-content: center;
+    right: 0px;
     top: 20%;
-    right: 2%;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.timer-div p {
+    letter-spacing: 0.2rem;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+
+.timer-div .timer {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 0.3rem;
     color: black;
 }
 
-header .timeup {
-    font-size: 20px;
-    position: absolute;
+.timer-div .timeup {
+    font-size: 16px;
     color: red;
-    right: 0%;
-    top: 80%;
+    letter-spacing: 0rem;
 }
 
 /* Header */

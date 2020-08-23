@@ -1,10 +1,10 @@
 const jsonData = 'https://raw.githubusercontent.com/ahmedashfaq027/quiz-javascript/master/sample.json';
 const proxy = 'https://cors-anywhere.herokuapp.com/';
-const timerEle = document.querySelector('.timer');
-const timeupEle = document.querySelector('.timeup');
 
 window.addEventListener('load', () => {
     // Define elements
+    const timerEle = document.querySelector('.timer');
+    const timeupEle = document.querySelector('.timeup');
     const titleEle = document.querySelector('header');
     const questionEle = document.querySelector('.question h3');
     const options = document.querySelectorAll('.options label span');
@@ -58,7 +58,7 @@ window.addEventListener('load', () => {
         setQuestion(questions[counter]);
         onCounterUpdate();
         clearRadioInput();
-        startTimer(10);
+        startTimer(parseInt(response.time));
     }
 
     function setQuestion(question) {
