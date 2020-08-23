@@ -24,11 +24,11 @@ header {
     position: relative;
 }
 
-header h1 {
+.title {
     font-weight: 800;
 }
 
-header p {
+header .description {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
     font-size: 18px;
@@ -43,6 +43,14 @@ header h2 {
     top: 20%;
     right: 2%;
     color: black;
+}
+
+header .timeup {
+    font-size: 20px;
+    position: absolute;
+    color: red;
+    right: 0%;
+    top: 80%;
 }
 
 /* Header */

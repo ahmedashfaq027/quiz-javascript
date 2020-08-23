@@ -1,6 +1,7 @@
 const jsonData = 'https://raw.githubusercontent.com/ahmedashfaq027/quiz-javascript/master/sample.json';
 const proxy = 'https://cors-anywhere.herokuapp.com/';
 const timerEle = document.querySelector('.timer');
+const timeupEle = document.querySelector('.timeup');
 
 window.addEventListener('load', () => {
     // Define elements
@@ -57,7 +58,7 @@ window.addEventListener('load', () => {
         setQuestion(questions[counter]);
         onCounterUpdate();
         clearRadioInput();
-        startTimer(600);
+        startTimer(10);
     }
 
     function setQuestion(question) {
@@ -150,15 +151,20 @@ window.addEventListener('load', () => {
 
         testDiv.classList.add('hidden');
         thankyouDiv.classList.remove('hidden');
+        timeupEle.classList.remove('hidden');
     }
 
     function startTimer(seconds) {
+        timeupEle.classList.add('hidden');
         timer = setInterval(function () {
-            console.log(seconds);
             timerEle.innerHTML = `${Math.floor(seconds / 60)}:${seconds % 60}`;
             if (seconds == 0) {
                 stopTimer();
                 endTest();
+            }
+            if (seconds <= 10) {
+                timerEle.style.transition = 'color 0.5s ease'
+                timerEle.style.color = 'red';
             }
             seconds--;
         }, 1000);
