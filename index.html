@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="form-div">
+        <header>
+            <h1>Tell me your identity</h1>
+        </header>
+        <form>
+            <div class="field-username">
+                <i class="far fa-id-card"></i>
+                <input type="text" placeholder="ID number" required>
+                <i class="fas fa-exclamation-circle hidden"></i>
+            </div>
+            <div class="field-name">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Full Name" required>
+                <i class="fas fa-exclamation-circle hidden"></i>
+            </div>
+            <div class="field-class">
+                <select name="class" id="classname">
+                    <option value="" disabled selected>Class</option>
+                    <option value="10">10th class</option>
+                    <option value="9">9th class</option>
+                    <option value="8">8th class</option>
+                    <option value="7">7th class</option>
+                    <option value="6">6th class</option>
+                    <option value="5">5th class</option>
+                    <option value="4">4th class</option>
+                    <option value="3">3rd class</option>
+                    <option value="2">2nd class</option>
+                    <option value="1">1st class</option>
+                </select>
+                <i class="fas fa-angle-down"></i>
+            </div>
+
+            <input class="submit" type="button" value="Submit">
+
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
