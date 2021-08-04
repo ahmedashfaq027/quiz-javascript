@@ -12,7 +12,7 @@ body {
 
 .form-div {
     background: rgba(255, 255, 255, 0.4);
-    width: fit-content;
+    width: max-content;
     margin: auto;
     margin-top: 100px;
     display: flex;
@@ -33,7 +33,9 @@ form {
     display: grid;
 }
 
-.field-username, .field-name, .field-class {
+.field-username,
+.field-name,
+.field-class {
     display: grid;
     grid-template-columns: 0.25fr auto 0.1fr;
     box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.32);
@@ -41,7 +43,8 @@ form {
     background: white;
 }
 
-.field-username input, .field-name input {
+.field-username input,
+.field-name input {
     border: none;
     flex: 1;
     outline: none;
@@ -54,7 +57,9 @@ form {
     color: red;
 }
 
-.field-username i, .field-name i, .field-class i {
+.field-username i,
+.field-name i,
+.field-class i {
     padding: 10px;
 }
 
